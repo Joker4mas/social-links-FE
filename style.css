@@ -3,8 +3,8 @@
 :root {
     --white: hsl(0, 0%, 100%);
     --gray: hsl(0, 0%, 20%);
-    --dark-grey: hsl(0, 0%, 12%);
-    --very-dark-grey: hsl(0, 0%, 8%);
+    --dark-gray: hsl(0, 0%, 12%);
+    --very-dark-gray: hsl(0, 0%, 8%);
     --green: hsl(75, 94%, 57%);
     --main-font: 'Inter', sans-serif;
     --secondary-font: 'Montserrat', sans-serif;
@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: var(--dark-grey);
+    background-color: var(--very-dark-grey);
     color: var(--white);
 }
 
