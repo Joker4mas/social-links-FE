@@ -88,6 +88,12 @@ body {
     background-color: var(--green);
 }
 
+.social-links button:focus-visible {
+    outline: none;
+    background-color: var(--green);
+
+}
+
 p {
     color: var(--green);
 }
