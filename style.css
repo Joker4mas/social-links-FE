@@ -78,20 +78,17 @@ body {
     padding: .7rem;
     border-radius: 0.5rem;
     background-color: var(--gray);
+    font-size: 1rem;
     font-weight: 400;
+    color: var(--white);
     border: none;
-    cursor: pointer;
     transition: background-color 0.9s ease;
 }
 
 .social-links button:hover {
+    cursor: pointer;
     background-color: var(--green);
-}
-
-.social-links button:focus-visible {
-    outline: none;
-    background-color: var(--green);
-
+    color: var(--very-dark-gray);
 }
 
 p {
@@ -99,17 +96,11 @@ p {
 }
 
 .social-links a {
-    /* padding: 1remm; */
-    border-radius: 0.5rem;
-    font-size: 1rem;
     text-align: center;
     color: var(--white);
     text-decoration: none;
 }
 
-.social-links a:hover {
-    color: var(--very-dark-gray);
-}
 
 .attribution {
     font-size: 1em;
@@ -146,6 +137,10 @@ p {
 
 @media (max-width: 375px) {
     .card {
+        width: 90%;
+    }
+
+    .social-links button {
         width: 90%;
     }
 }
