@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/social-desk.png)
+![](./assets/images/Socialx.png)
 
 
 
